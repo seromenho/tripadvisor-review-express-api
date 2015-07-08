@@ -1,0 +1,25 @@
+{
+  "name": "seromenho/tripadvisor-review-express-api",
+  "description": "Wrapper for the Tripadvisor Review Express API.",
+  "keywords": ["Tripadvisor", "Review Express"],
+  "homepage": "http://github.com/seromenho/tripadvisor-review-express-api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Seromenho",
+      "email": "ricardo@seromenho.com",
+      "homepage": "http://seromenho.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.0.2"
+  }
+  "autoload": {
+    "psr-4": {"ReviewExpress\\": "src/"}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
